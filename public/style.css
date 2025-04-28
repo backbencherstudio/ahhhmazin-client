@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "MontrealTS DemiBold"; /* Use actual name */
+  src: url("./font/MontrealTS-DemiBold.ttf") format("truetype");
+}
+body {
+  font-family: "MontrealTS DemiBold";
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#supercut {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  display: none;
+}
+
+#supercut iframe {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%);
+
+  /* width: relative;
+
+   */
+}
+
+#clicktosupercut {
+  position: fixed;
+  left: 0.8vw;
+  bottom: 3vh;
+  width: 144px;
+  position: fixed;
+  left: 15px;
+  bottom: 26px;
+
+  overflow: hidden;
+  -webkit-margin-start: -42px;
+  -webkit-padding-start: 40px;
+  cursor: pointer;
+}
+
+#logoImg {
+  width: 300px;
+}
+
+#photo4 {
+  position: fixed;
+  left: 15px;
+  bottom: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+#photo5 {
+  position: fixed;
+  right: 20px;
+  bottom: 58px;
+  cursor: pointer;
+}
+
+.shope {
+  font-size: 58px;
+  margin: 20px 0px;
+  line-height: 80px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+#container {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+#container .pic {
+  width: 300px;
+  height: 300px;
+  margin-top: -61px;
+  cursor: pointer;
+}
+
+#clickcontainer {
+  position: absolute;
+  left: 1.5vw;
+  bottom: 1.5vw;
+  width: 69px;
+  height: 71px;
+}
+
+#clickcontainer .pic {
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+
+body {
+  background-color: #00ffa2;
+}
+
+#pic2 {
+  display: none;
+}
+
+#pic3 {
+  display: none;
+}
+
+audio {
+  display: none;
+}
+
+#number {
+  font-size: 96px;
+  font-family: "MontrealTS DemiBold", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  width: 400px;
+  height: 120px;
+  color: white;
+  margin-top: -40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: -2px;
+  transform: translateX(-50px);
+}
+
+.youtubeshare {
+  color: white;
+  cursor: pointer;
+}
+
+/* 
+
+ul.share-buttons li a {
+  display: inline;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+} */
+
+.share-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 12px;
+}
+.icon-wrap {
+  display: flex;
+  gap: 15px;
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  position: relative;
+}
+.icon svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
